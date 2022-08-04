@@ -1,4 +1,4 @@
-<body background="oleg-laptev-7jQh3EiS8Bs-unsplash.jpg">
+<body background="/assets/HD-All-White-Background.jpg">
 
     <!DOCTYPE html>
     <html lang="en">
@@ -12,17 +12,46 @@
 
     <body>
         <div class="header">
-            <a href="https://www.compcamps.com">
-                <img alt="msi logo" src="./assets/logo.svg" height="100px" />
-            </a>
-            <a href="./about.html">
-                <img alt="About Me" src="./assets/About Me Logo.png" height="50px" />
-            </a>
+            <div class="buttons">
+                <a href="./about.html">
+                    <img alt="About Me" src="./assets/About Me Logo.png" height="50px" />
+                </a>
+            </div>
+            <div>
+                <a href="https://www.compcamps.com">
+                    <img alt="msi logo" src="./assets/logo.svg" height="100px" />
+                </a>
+            </div>
+            <div class="socials">
+                <a href="https://www.twitter.com/SacredXV">
+                    <img alt="Twitter" src="./assets/twitter logo.png" height="50px" />
+                </a>
+                <a href="https://github.com/TomideS">
+                    <img alt="Github" src="./assets/Github Logo.png" height="50px" />
+                </a>
+            </div>
         </div>
         <article>
-            <h1>Hello World!</h1>
-            <p>My name is Tomide!</p>
-            <p>Welcome to my Website</p>
-            <article>
+            <h1>.</h1>
+            <h2>Welcome to Tomide's Website!</h2>
+        </article>
+        <div class="projects">
+            <h3>My Projects</h3>
+            <p>All my projects made @ MSI Computer Camp 2022</p>
+        </div>
+
+        <div class="projectvideos">
+            <video width="500">
+                <source src="./assets/WandererGame - Unreal Editor 2022-08-04 10-42-58.mp4" type="video/mp4" />
+                Sorry, this video does not work.
+            </video>
+        </div>
+
+        <script>
+            const name = window.prompt('What is your name?')
+            document.querySelector(
+                'h1'
+            ).innerText = "Hello " + name + '!'
+        </script>
 
     </html>
