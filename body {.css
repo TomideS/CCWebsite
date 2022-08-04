@@ -1,0 +1,12 @@
+body {
+    margin: 10;
+}
+
+.header {
+    background: black;
+    padding: 50.0%;
+}
+
+article {
+    padding: 50.0%;
+}
