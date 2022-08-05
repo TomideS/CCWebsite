@@ -29,6 +29,8 @@ head {
 .projectvideos {
     text-align: center;
     padding: 20;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buttons {
