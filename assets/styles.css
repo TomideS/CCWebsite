@@ -1,21 +1,18 @@
-body {
-    text-align: end;
-}
-
 .header {
-    background: rgb(255, 255, 255);
     text-align: center;
     display: flex;
-    margin: 10;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 article {
     text-align: center;
-    font-style: oblique, italic;
     font-size: large;
-    text-decoration-line: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.compcamp {
+    text-align: center;
+    margin-right: 100px;
 }
 
 head {
@@ -26,7 +23,7 @@ head {
     text-align: center;
     text-decoration-line: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 100;
+    padding-top: 50px;
 }
 
 .projectvideos {
@@ -40,8 +37,8 @@ head {
 
 .socials {
     text-align: right;
-    padding-left: 70;
-    min-width: 165;
+    padding-left: 100;
+    min-width: 200;
 }
 
 script {
@@ -51,7 +48,41 @@ script {
 
 .welcomemessage {
     font-size: larger;
-    color: rgb(212, 167, 255);
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caption1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.arrow {
+    text-align: left height 20px;
+}
+
+.aboutmepic {
+    text-align: center;
+    padding: 20;
+}
+
+.aboutheader {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-decoration-line: underline;
+}
+
+.abouttext {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(226, 43, 43);
 }
